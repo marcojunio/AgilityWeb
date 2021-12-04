@@ -1,0 +1,45 @@
+.card{
+    min-width: 440px;
+}
+
+.header{
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   border-bottom: 1px solid white;
+   line-height: 0.002rem;
+   margin: 10px 0 20px;
+   margin-bottom: 30px;
+}
+
+.header .sub-header { 
+    background:#4DBDFD; 
+    padding:0 10px; 
+}
+
+.header .sub-header-principal{
+    background:#33A0FD; 
+    padding:0 10px; 
+}
+
+.subheader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+
+.content{
+    background: linear-gradient(to bottom,#4188FF,#2EA9FD,#75D7FD);
+    height: 900px;
+}
+
+.label-required{
+    color: white;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}

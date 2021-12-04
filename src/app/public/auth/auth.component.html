@@ -1,0 +1,28 @@
+
+<div class="content" style="overflow-x:hidden;">
+    <div class="flex justify-content-center align-items-center m-7">
+        <div class="col-6" style="min-width: 450px;max-width: 600px;" >
+                <div style="padding: 80px; margin-top: 150px; border-radius: 30px;" class="fadeinleft shadow-8">
+                <form (ngSubmit)="onSubmit()" [formGroup]="formLogin">
+                    <h2  class="header text-white"><span class="sub-header-principal"><i style="font-size: 2rem;" class="fas fa-sign-in-alt text-white"></i></span></h2>
+                    <div class="field">
+                            <label for="user" class="label-required w-full">User</label>
+                        <input style="border-radius: 30px;padding: 15px;" pInputText formControlName="user" type="text" name="user" class="inputfield w-full" id="user">
+                    </div> 
+                    <div class="field">
+                        <label for="password"  class="label-required w-full">Password</label>
+                        <input style="border-radius: 30px;padding: 15px;" pPassword [feedback]="false" formControlName="password" type="password" name="password" id="password" class="inputfield w-full"/>
+                    </div>
+                    <div style="text-align: center;">
+                        <p-button type="onSubmit" iconPos="left" [style]="{'border-radius':'50px','width':'50%'}" label="Login"></p-button>
+                    </div>
+                </form>
+                <h2 style="margin-top: 35px;font-size: 1rem;" class="header text-white"><span class="sub-header">Or</span></h2>
+                <div style="text-align: center;">
+                    <a style="text-decoration: none; font-family: Arial, Helvetica, sans-serif; color: white;" href="">Forgot your password</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
