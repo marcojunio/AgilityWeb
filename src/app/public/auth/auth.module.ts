@@ -6,10 +6,11 @@ import { InputTextModule } from 'primeng/inputtext';
 import { PasswordModule } from 'primeng/password';
 import { ButtonModule } from 'primeng/button';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UtilsModule } from './../../utils/utils.module';
 
 @NgModule({
     declarations:[
-        AuthComponent
+        AuthComponent,
     ],
     imports: [
         AuthRouting,
@@ -17,7 +18,8 @@ import { ReactiveFormsModule } from '@angular/forms';
         InputTextModule,
         PasswordModule,
         ButtonModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        UtilsModule
     ]
 })
 

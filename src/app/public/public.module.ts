@@ -3,7 +3,7 @@ import { AuthModule } from './auth/auth.module';
 
 @NgModule({
     imports:[
-        AuthModule
+        AuthModule,
     ],
     exports:[
         AuthModule
